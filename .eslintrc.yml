@@ -1,0 +1,19 @@
+extends: ["airbnb-base"]
+plugins:
+  - import
+rules:
+  camelcase: 0
+  comma-dangle: 0
+  max-len: [2, 120]
+  indent: [1, 2, { SwitchCase: 1 }]
+  newline-per-chained-call: 0
+  import/no-extraneous-dependencies: [2, { devDependencies: ['**/test/*.js'] }]
+
+env:
+  mocha: true
+  node: true
+  es6: true
+
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
