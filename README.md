@@ -1,4 +1,4 @@
-This template is a modified version of this repository: https://github.com/belohlavek/phaser-es6-boilerplate
+This template is a modified version of this repository: https://github.com/belohlavek/phaser-es6-boilerplate CHANGE
 
 It has been modified to include the following states:
 
@@ -6,7 +6,7 @@ It has been modified to include the following states:
 * Preload
 * GameTitle
 * Main
-* GameOver
+* GameOver TOO LONG
 
 and is set up to auto resize to cover the entire available viewport. It also includes a service worker and manifest file for progressive web app support.
 
